@@ -9,7 +9,7 @@ import java.util.List;
 @Component
 @ConfigurationProperties(prefix="products")
 public class Products {
-    private final List<String> products = new ArrayList<>();
+    private List<String> products = new ArrayList<>();
 
     public List<String> getProducts() {
         return products;
