@@ -1,1 +1,4 @@
-products: first,second
+products:
+  products:
+    - 'first'
+    - 'second'
